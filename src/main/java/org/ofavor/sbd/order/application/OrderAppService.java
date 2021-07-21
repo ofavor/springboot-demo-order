@@ -55,7 +55,7 @@ public interface OrderAppService {
      * @param product
      * @param count
      */
-    void deleteProduct(Product product, int count);
+    void deleteProduct(UUID orderId, Product product, int count);
 
     /**
      * Confirm order

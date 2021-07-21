@@ -18,4 +18,24 @@ public class Order {
     private BigDecimal price;
 
     private OrderStatus status;
+
+    public void addProduct(Product product, int count) {
+
+    }
+
+    public void deleteProduct(Product product, int count) {
+
+    }
+
+    public void confirm() {
+
+    }
+
+    public void pay() {
+
+    }
+
+    public void cancel() {
+
+    }
 }
