@@ -6,12 +6,10 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 /**
- * OrderItem entity
+ * OrderItem value object
  */
 @Data
 public class OrderItem {
-
-    private UUID id;
 
     private UUID productId;
 

@@ -1,9 +1,7 @@
 package org.ofavor.sbd.order.application;
 
 import org.ofavor.sbd.order.domain.Order;
-import org.ofavor.sbd.order.domain.OrderStatus;
 import org.ofavor.sbd.order.domain.Product;
-import org.ofavor.sbd.order.domain.User;
 
 import java.util.List;
 import java.util.UUID;

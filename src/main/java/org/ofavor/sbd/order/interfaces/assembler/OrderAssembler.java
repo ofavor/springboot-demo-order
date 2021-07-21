@@ -26,7 +26,6 @@ public class OrderAssembler {
 
     public static OrderItemDTO toItemDTO(OrderItem it) {
         OrderItemDTO dto = new OrderItemDTO();
-        dto.setId(it.getId());
         dto.setProductId(it.getProductId());
         dto.setProductName(it.getProductName());
         dto.setPrice(it.getPrice());

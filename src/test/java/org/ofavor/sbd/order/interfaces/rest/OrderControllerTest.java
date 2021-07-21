@@ -3,15 +3,14 @@ package org.ofavor.sbd.order.interfaces.rest;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.Mockito;
+
 import static org.mockito.Mockito.when;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.times;
+
 import org.ofavor.sbd.order.application.OrderAppService;
 import org.ofavor.sbd.order.domain.Order;
 import org.ofavor.sbd.order.domain.OrderStatus;
 import org.ofavor.sbd.order.domain.Product;
-import org.ofavor.sbd.order.domain.User;
 import org.ofavor.sbd.order.domain.exception.OrderNotFoundException;
 import org.ofavor.sbd.order.interfaces.request.CreateOrderRequest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +26,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.UUID;
